@@ -1,12 +1,41 @@
-# React + Vite
+#  🍰 Quero Fatia — v2.0 (Refatorado com React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Resumo: Esta é a refatoração da versão inicial construída em HTML, CSS e JavaScript puro. A v2.0 adota React e Tailwind CSS para melhorar arquitetura, escalabilidade, performance, acessibilidade e velocidade de desenvolvimento, além de introduzir novas funcionalidades e um design revisado.
 
-Currently, two official plugins are available:
+## ✨ Objetivo do site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo é criar um site responsivo com a cara da marca e que melhore a usabilidade tanto da proprietária quando do usuário.
 
-## Expanding the ESLint configuration
+Público-alvo: Clientes Finais
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔁 Por que uma versão 2.0?
+
+Componentização: separar responsabilidades (UI reutilizável, estados locais e globais).
+
+Manutenibilidade: código mais legível, testável e padronizado.
+
+Escalabilidade: fácil evolução de features sem “quebrar” a base.
+
+Design System leve: Tailwind para consistência visual e produtividade.
+
+Experiência do usuário: navegação mais fluida, acessível e responsiva.
+
+Repositório da v1: https://github.com/anac-silva/Site_QueroFatia
+
+## 🧰 Stack
+
+Front-end: React 18, Vite (dev server e build rápidos)
+
+Estilo: Tailwind CSS + classes utilitárias + componentes desacoplados
+
+## 🔒 Licença
+
+Este projeto está sob a licença MIT. Veja LICENSE para mais detalhes.
+
+## 🙌 Contato & Links
+
+LinkedIn: [Ana Carolina](https://www.linkedin.com/in/carolinamerloti/)
+
+E-mail: ana.carolina3551@gmail.com
+
+Seja bem-vindo e fique à vontade para colaborar!
