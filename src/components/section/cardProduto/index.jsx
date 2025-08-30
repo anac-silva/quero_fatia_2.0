@@ -1,12 +1,18 @@
 import AdicionarCarrinho from "../botaoAdicionar"
 
-export default function CardProdutos() {
+export default function CardProdutos(props) {
+    const nomeImagem = props.nome.toLowerCase().trim().replace(/\s+/g, "_")
+
     return(
         <div>
-            <h3>Nome do Produto</h3>
-            <p>Descrição do produto</p>
-            <p>Valor</p>
-            <span>0</span> qtd.
+            <div>
+                <img src={`/imagens/produtos/${nomeImagem}.jpg`} alt={props.nome} width="150" />
+            </div>
+            <div>
+                <h3>{props.nome}</h3>
+                <p>{props.descricao}</p>
+                <p>{props.valor}</p>
+            </div>
             <AdicionarCarrinho />
         </div>
     )

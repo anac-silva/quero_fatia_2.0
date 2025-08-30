@@ -1,11 +1,12 @@
 import CardProdutos from "./cardProduto"
 
-export default function ListaProdutos() {
+export default function ListaProdutos(props) {
 
     return (
         <section>
-            <CardProdutos />
-            <CardProdutos />
+            {props.produtos.map((item, index) => (
+                <CardProdutos key={index} {...item} />
+            ))}
         </section>
     )
 }
