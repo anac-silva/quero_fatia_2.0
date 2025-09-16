@@ -17,10 +17,11 @@ function App() {
   ]
 
   return (
-    <>
+    <section className="bg-[#DBD2B4]">
       <Header/>
       <ListaProdutos produtos={produtos}/>
-    </>
+      
+    </section>
   )
 }
 
